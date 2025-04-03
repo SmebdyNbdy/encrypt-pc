@@ -1,4 +1,4 @@
-import 'package:encrypt/encrypt.dart';
+import 'package:encrypt_pc/encrypt.dart';
 import 'package:test/test.dart';
 
 void main() {

@@ -1,3 +1,13 @@
+# 1.0.0-rc
+
+This is a fork of [leocavalcante/encrypt](https://github.com/leocavalcante/encrypt), which I created for my own needs since the project does not seem to be maintained anymore. Initial release 1.0.0 will reset the versioning, since the repo is renamed to highlight the main difference: the core library pointycastle has changed its repo to pc-dart and needed to be updated, hence encrypt_pc. The previous changelong is kept for now since the repo has barely changed. Initial release changes are therefore minimal:
+
+- Upgrade dependency `lints` to `5.1.1`
+- Upgrade dependency `pointycastle` to `4.0.0`
+- No breaking changes to the API
+
+**I welcome any contributors who are interested in the project, I am not a cryptography specialist in any way, so the project would need maintainers with relevant experience or deeper understanding of cryptography** Thanks for checking out this repo, feel free to contact me.
+
 # 5.0.4
 
 - Force Pointycastle version

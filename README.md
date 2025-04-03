@@ -1,12 +1,9 @@
-# encrypt
+# encrypt_pc
 
 [![Pub Package](https://img.shields.io/pub/v/encrypt.svg)](https://pub.dartlang.org/packages/encrypt)
 [![Dart CI](https://github.com/leocavalcante/encrypt/actions/workflows/dart.yaml/badge.svg)](https://github.com/leocavalcante/encrypt/actions/workflows/dart.yaml)
-[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E4F45BFVMFVQW)
 
-A set of high-level APIs over PointyCastle for two-way cryptography.
-
-> Looking for password hashing? Please, visit [password](https://github.com/leocavalcante/password-dart).
+A set of high-level APIs over pointycastle (<https://github.com/bcgit/pc-dart>) for two-way cryptography. A fork of encrypt (<https://github.com/leocavalcante/encrypt>).
 
 ### Secure random
 
@@ -57,7 +54,7 @@ Current status is:
 #### AES
 
 ```dart
-import 'package:encrypt/encrypt.dart';
+import 'package:encrypt_pc/encrypt.dart';
 
 void main() {
   final plainText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit';
@@ -103,7 +100,7 @@ final encrypter = Encrypter(AES(key, mode: AESMode.cbc, padding: null));
 #### Salsa20
 
 ```dart
-import 'package:encrypt/encrypt.dart';
+import 'package:encrypt_pc/encrypt.dart';
 
 void main() {
   final plainText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit';
@@ -122,7 +119,7 @@ void main() {
 #### [Fernet](https://github.com/fernet/spec/blob/master/Spec.md)
 
 ```dart
-import 'package:encrypt/encrypt.dart';
+import 'package:encrypt_pc/encrypt.dart';
 import 'dart:convert';
 
 void main() {
@@ -149,7 +146,7 @@ void main() {
 
 ```dart
 import 'dart:io';
-import 'package:encrypt/encrypt.dart';
+import 'package:encrypt_pc/encrypt.dart';
 import 'package:pointycastle/asymmetric/api.dart';
 
 void main() {

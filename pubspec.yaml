@@ -1,7 +1,7 @@
-name: encrypt
-version: 5.0.4
-description: A set of high-level APIs over PointyCastle for two-way cryptography.
-repository: https://github.com/leocavalcante/encrypt
+name: encrypt_pc
+version: 1.0.0-rc
+description: A set of high-level APIs over pointycastle (https://github.com/bcgit/pc-dart) for two-way cryptography. A fork of encrypt (https://github.com/leocavalcante/encrypt).
+repository: https://github.com/SmebdyNbdy/encrypt-pc
 
 executables:
   secure-random:
@@ -15,10 +15,10 @@ dependencies:
   clock: ^1.1.1
   collection: ^1.17.0
   crypto: ^3.0.2
-  pointycastle: ^3.7.3
+  pointycastle: ^4.0.0
 
 dev_dependencies:
-  lints: ^2.0.0
+  lints: ^5.1.1
   test: ^1.24.0
 
 false_secrets:
