@@ -1,9 +1,21 @@
 # encrypt_pc
 
-[![Pub Package](https://img.shields.io/pub/v/encrypt.svg)](https://pub.dartlang.org/packages/encrypt)
-[![Dart CI](https://github.com/leocavalcante/encrypt/actions/workflows/dart.yaml/badge.svg)](https://github.com/leocavalcante/encrypt/actions/workflows/dart.yaml)
-
 A set of high-level APIs over pointycastle (<https://github.com/bcgit/pc-dart>) for two-way cryptography. A fork of encrypt (<https://github.com/leocavalcante/encrypt>).
+
+### Installation
+
+As of now, the package is not yet published to pub dev. To use the latest stable version:
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+
+  encrypt_pc:
+    git:
+      url: https://github.com/SmebdyNbdy/encrypt-pc.git
+      ref: main
+```
 
 ### Secure random
 
